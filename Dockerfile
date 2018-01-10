@@ -1,4 +1,3 @@
-EXPORT DOCKET_HOST=unix:///private/var/tmp/docker.sock
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 ARG JAR_FILE
